@@ -21,6 +21,7 @@ public class TimePrinter extends TimerTask {
 		while(!exitCode.equals("q")) {
 			exitCode = sc.nextLine();
 		}
+		sc.close();
 		timer.cancel();
 		System.exit(0);
 	}
